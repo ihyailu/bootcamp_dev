@@ -1,8 +1,7 @@
-let variavel = 10;
+const variavel = 10;
+
+console.log(variavel);
 
 variavel = 20;
 
-const pi = 3.14;
-
-
-console.log('Imprimir algo');
+console.log(variavel);
