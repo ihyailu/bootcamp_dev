@@ -1,7 +1,8 @@
-const variavel = 10;
+const valorCombustivel = 5;
+const gastoCombustivel = 2
+const distanciaKM = 240
 
-console.log(variavel);
+const litrosUsados = distanciaKM / gastoCombustivel;
+const resultado = litrosUsados * valorCombustivel;
 
-variavel = 20;
-
-console.log(variavel);
+console.log(resultado);
