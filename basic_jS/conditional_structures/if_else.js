@@ -1,8 +1,18 @@
-const numero = 5;
-const numeroPar = (numero % 2) === 0;
+const precoGasolina = 5.20;
+const precoEtanol = 4.44;
+const kmLitro = 8;
+const distanciaKM = 368;
+const tipoCombustivel = 'etanol';
 
-if (numeroPar) {
-    console.log("O número é par")
-} else {
-    console.log("O número é impar")
+const litrosUsados = distanciaKM / kmLitro;
+
+if (tipoCombustivel === 'gasolina') {
+    const valorGasto = litrosUsados * precoGasolina;
+    console.log(valorGasto.toFixed(2));
+
+} 
+else {
+    const valorGasto = litrosUsados * precoEtanol;
+    console.log(valorGasto.toFixed(2));
 }
+
