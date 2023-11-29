@@ -1,16 +1,13 @@
 function escreverNome (nome) {
-    console.log ("Meu nome é " + nome);
+   return "Meu nome é " + nome;
 }
-
-escreverNome ("Gustavo");
-escreverNome ("Gustavo Barbosa")
 
 function verificarIdade (idade) {
     if (idade >= 18) {
-        console.log ("Maior");
+        console.log (escreverNome ('Gustavo') + " é maior de idade");
     } else {
-        console.log ("Menor");
+        console.log (" é menor de idade");
     }
 }
 
-verificarIdade (12)
+verificarIdade (19)
