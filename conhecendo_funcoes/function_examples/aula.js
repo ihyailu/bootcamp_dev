@@ -17,6 +17,7 @@ function classificarIMC(IMC) {
 }
 
 
+// main
 (function () {
 const altura = 1.87
 const peso = 68.0
